@@ -1,10 +1,10 @@
 .navigation {
-    height: 70px;
+    height: 80px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     margin-bottom: 15px;
-    background: linear-gradient(90deg, rgb(126, 197, 232) 0%, rgb(72, 80, 145) 35%, rgb(120, 185, 228) 90%);
+    background: linear-gradient(90deg, rgb(233, 228, 234)10%, rgb(3, 88, 125) 35%, rgb(227, 30, 122) 95%);
    
   
     .logo-container {
@@ -26,8 +26,17 @@
       .nav-link {
         padding: 10px 15px;
         cursor: pointer;
-        font-weight: 600;
+        font-weight:  600;
+        letter-spacing: 1px;
+        opacity: 0.6;
+        transition: 0.3s;
+
+        
       }
+      .nav-link:hover
+      {opacity:1; color:white}
     }
+    
+    
   }
   
