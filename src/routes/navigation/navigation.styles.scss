@@ -4,14 +4,14 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 15px;
-    background: linear-gradient(90deg, rgb(169, 164, 253) 0%, rgb(98, 98, 189) 35%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(90deg, rgb(126, 197, 232) 0%, rgb(72, 80, 145) 35%, rgb(120, 185, 228) 90%);
    
   
     .logo-container {
       height: 100%;
       width: 70px;
       display: flex;
-      align-items: center;
+      align-items: center;  
     }
   
     .nav-links-container {
@@ -21,7 +21,7 @@
       display: flex;
       align-items: center;
       justify-content: flex-end;
-   
+      
       
       .nav-link {
         padding: 10px 15px;
