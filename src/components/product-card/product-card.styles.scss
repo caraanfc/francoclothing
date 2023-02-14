@@ -5,6 +5,23 @@
     height: 350px;
     align-items: center;
     position: relative;
+
+    &:hover {
+      cursor: pointer;
+  
+      & .background-image {
+        transform: scale(1.1);
+        transition: transform 2.5s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+      }
+  
+      & .product-card-container {
+        opacity: 0.9;
+      }
+      & .footer{
+        margin-top: 20px;
+        font-weight: 600;
+      }
+    }
   
     img {
       width: 100%;
